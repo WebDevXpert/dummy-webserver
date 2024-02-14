@@ -1,0 +1,56 @@
+/* General styling for input group */
+.input_group {
+    display: flex;
+    border: 1px solid #3498db;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+/* Styling for text input */
+/* .input_text {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #3498db;
+    border-radius: 0.5rem;
+    background-color: #d0d1e6;
+    background-color: #0d2931;
+    outline: none;
+    transition: border-color 0.3s ease, color 0.3s ease;
+} */
+
+
+
+/* Styling for primary button */
+.button {
+    width: 100%;
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease, border 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    border: 1px solid #3498db;
+    color: #e4eaf0;
+}
+
+/* Styling for custom button */
+.button_custom {
+    width: 100%;
+    border: 1px solid #3498db;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_custom:hover {
+    background-color: #052027;
+}
